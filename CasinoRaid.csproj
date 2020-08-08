@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Instagram Post - 2 (10).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="found.wav" />
+    <None Remove="lose.wav" />
+    <None Remove="lose2.wav" />
+    <None Remove="start.wav" />
+    <None Remove="win.wav" />
+    <None Remove="win2.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="found.wav" />
+    <EmbeddedResource Include="lose.wav" />
+    <EmbeddedResource Include="lose2.wav" />
+    <EmbeddedResource Include="start.wav" />
+    <EmbeddedResource Include="win.wav" />
+    <EmbeddedResource Include="win2.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="4.1.0" />
+    <PackageReference Include="Fody" Version="6.2.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Windows.Extensions" Version="4.7.0" />
+    <PackageReference Include="Websocket.Client" Version="4.3.21" />
+  </ItemGroup>
+
+</Project>

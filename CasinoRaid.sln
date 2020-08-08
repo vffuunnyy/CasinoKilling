@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasinoRaid", "CasinoRaid.csproj", "{155449DB-3F71-43B0-83B4-90C345937EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155449DB-3F71-43B0-83B4-90C345937EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155449DB-3F71-43B0-83B4-90C345937EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155449DB-3F71-43B0-83B4-90C345937EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155449DB-3F71-43B0-83B4-90C345937EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E248BB0C-AD1E-4F8B-B3D6-EF3DCD8AEA77}
+	EndGlobalSection
+EndGlobal
